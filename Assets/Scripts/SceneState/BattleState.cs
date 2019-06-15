@@ -25,8 +25,35 @@ namespace Red
         }
 
 
+        //兵营 关卡 角色管理 行动力 成就系统。。。
 
 
+        private GameFacade mFacade;
+
+        public override void StateStart()
+        {
+            // base.StateStart();
+            mFacade.Init();
+        }
+
+
+        public override void StateUpdate()
+        {
+            //  base.StateUpdate();
+            mFacade.Update();
+        }
+
+
+        public override void StateEnd()
+        {
+            //   base.StateEnd();
+
+            if (mFacade.isGameOver)
+            {
+                mController.SetState(new MainMenuState(mController));
+            }
+            mFacade.Release();
+        }
 
     }
 }
