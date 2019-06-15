@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignModeCode/T02Bridge/T02Bridge.unity
+- path: Assets/DesignModeCode/T03Strategy/T03Strategy.unity
   isLoaded: 1
   isActive: 1

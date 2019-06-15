@@ -44,7 +44,17 @@ namespace Red
         /// </summary>
         protected string mIconSprite;
 
+        /// <summary>
+        /// 角色等级
+        /// </summary>
+        protected int mLv;
 
+        /// <summary>
+        /// 暴击率 0-1
+        /// </summary>
+        protected float mCritRate;
 
+        //增加的最大血量 抵御的伤害值 暴击增加的伤害
+        protected IAttrStrategy mStrategy;
     }
 }

@@ -63,6 +63,7 @@
     <Compile Include="Assets\DesignModeCode\T01StateDesignModel\T01StateDesignModel.cs" />
     <Compile Include="Assets\DesignModeCode\T02Bridge\T02Bridge.cs" />
     <Compile Include="Assets\DesignModeCode\T02Bridge\T02NotBridge.cs" />
+    <Compile Include="Assets\DesignModeCode\T03Strategy\T03Strategy.cs" />
     <Compile Include="Assets\Scripts\ArchievementSystem\ArchievementSystem.cs" />
     <Compile Include="Assets\Scripts\BaseClass\IBaseUI.cs" />
     <Compile Include="Assets\Scripts\BaseClass\IGameSystem.cs" />
@@ -70,6 +71,9 @@
     <Compile Include="Assets\Scripts\CharacterSystem\Attr\EnemyAttr.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\Attr\ICharacterAttr.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\Attr\SoldierAttr.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\AttrStrategy\EnemyAttrStrategy.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\AttrStrategy\IAttrStrategy.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\AttrStrategy\SoldierAttrStrategy.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\CharacterSystem.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\Enemy\EnemyElf.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\Enemy\EnemyOgre.cs" />
