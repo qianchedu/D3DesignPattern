@@ -61,11 +61,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DesignModeCode\T01StateDesignModel\T01StateDesignModel.cs" />
+    <Compile Include="Assets\DesignModeCode\T02Bridge\T02Bridge.cs" />
+    <Compile Include="Assets\DesignModeCode\T02Bridge\T02NotBridge.cs" />
     <Compile Include="Assets\Scripts\ArchievementSystem\ArchievementSystem.cs" />
     <Compile Include="Assets\Scripts\BaseClass\IBaseUI.cs" />
     <Compile Include="Assets\Scripts\BaseClass\IGameSystem.cs" />
     <Compile Include="Assets\Scripts\CampSystem\CampSystem.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Attr\EnemyAttr.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Attr\ICharacterAttr.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Attr\SoldierAttr.cs" />
     <Compile Include="Assets\Scripts\CharacterSystem\CharacterSystem.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Enemy\EnemyElf.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Enemy\EnemyOgre.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Enemy\EnemyTroll.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Enemy\IEnemy.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\ICharacter.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Soldier\ISoldier.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Soldier\SoldierCaptain.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Soldier\SoldierRookie.cs" />
+    <Compile Include="Assets\Scripts\CharacterSystem\Soldier\SoldierSergeant.cs" />
     <Compile Include="Assets\Scripts\EnergySystem\EnergySystem.cs" />
     <Compile Include="Assets\Scripts\GameEventSystem\GameEventSystem.cs" />
     <Compile Include="Assets\Scripts\GameFacade.cs" />
@@ -80,6 +94,10 @@
     <Compile Include="Assets\Scripts\UISystem\GamePauseUI.cs" />
     <Compile Include="Assets\Scripts\UISystem\GameStateInfoUI.cs" />
     <Compile Include="Assets\Scripts\UISystem\SoldierInfoUI.cs" />
+    <Compile Include="Assets\Scripts\Weapon\IWeapon.cs" />
+    <Compile Include="Assets\Scripts\Weapon\WeaponGun.cs" />
+    <Compile Include="Assets\Scripts\Weapon\WeaponRifle.cs" />
+    <Compile Include="Assets\Scripts\Weapon\WeaponRocket.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/WorkSpace/Unity/Day0614/Red/D3DesignPattern/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
