@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DesignModeCode/T01StateDesignModel/T01StateDesignModel.unity
+- path: Assets/Scenes/01.StartScene.unity
   isLoaded: 1
   isActive: 1

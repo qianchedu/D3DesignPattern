@@ -61,6 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DesignModeCode\T01StateDesignModel\T01StateDesignModel.cs" />
+    <Compile Include="Assets\Scripts\GameLoop.cs" />
+    <Compile Include="Assets\Scripts\SceneState\BattleState.cs" />
+    <Compile Include="Assets\Scripts\SceneState\ISceneState.cs" />
+    <Compile Include="Assets\Scripts\SceneState\MainMenuState.cs" />
+    <Compile Include="Assets\Scripts\SceneState\SceneStateController.cs" />
+    <Compile Include="Assets\Scripts\SceneState\StartState.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/WorkSpace/Unity/Day0614/Red/D3DesignPattern/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
